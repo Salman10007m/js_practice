@@ -9,3 +9,4 @@ function decimalToBinary(decimal) {
 console.log(decimalToBinary(10));
 console.log(decimalToBinary(5));
 console.log(decimalToBinary(12));
+console.log(decimalToBinary(15));

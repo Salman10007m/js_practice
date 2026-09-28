@@ -1,7 +1,8 @@
 function printEvenNumbers(range) {
     if (range <= 2) {
         return 2;
-    } else if (range % 2 === 0) {
+    }
+    if (range % 2 === 0) {
         return `${printEvenNumbers(range - 1)}\n${range}`;
     }
     return `${printEvenNumbers(range - 1)}`;
